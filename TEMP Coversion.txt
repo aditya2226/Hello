@@ -1,0 +1,19 @@
+import java.lang.System;
+import java.lang.String;
+import java.util.Scanner;
+public class Sample {
+	 public static void main(String args[])
+	    {
+	        float centi,fahr;
+	        
+	        Scanner s = new Scanner(System.in);
+			
+	        System.out.print("Enter Temperature in Centigrade Formate : ");
+	        centi = s.nextFloat();
+			
+	        fahr = (float) ((1.8*centi) + 32);
+			
+	        System.out.print("Equivalent Temperature in Fahrenheit Formate = " + fahr);
+	    }
+
+}
