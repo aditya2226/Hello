@@ -6,14 +6,14 @@
   "Parameters" : {
    "vpc": {
       "Type": "AWS::EC2::VPC::Id",
-      "Default": "vpc-219e795b",
+      "Default": "vpc-c8312bb1",
       "ConstraintDescription": "Must be an existing VPC within working region."
     },
 	
     "subnet": {
       "Description": "SubnetID of existing subnet for Automation Host",
       "Type": "AWS::EC2::Subnet::Id",
-      "Default": "subnet-524c2118",
+      "Default": "subnet-14d04f5f",
       "ConstraintDescription": "Must be an existing subnet"
     },
     "KeyName": {
